@@ -1,0 +1,88 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Enable class-based dark mode in Tailwind CSS v4 */
+@variant dark (&:where(.dark, .dark *));
+
+:root {
+  --primary-color: #2563eb;
+  --primary-hover: #1d4ed8;
+  --primary-light: rgba(37, 99, 235, 0.12);
+  --primary-border: rgba(37, 99, 235, 0.3);
+  --accent-color: #f59e0b;
+}
+
+@layer base {
+  * {
+    font-family: 'Vazirmatn', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  }
+}
+
+/* Custom Dynamic Theme Classes */
+.bg-theme-primary {
+  background-color: var(--primary-color) !important;
+}
+
+.hover\:bg-theme-primary-hover:hover {
+  background-color: var(--primary-hover) !important;
+}
+
+.text-theme-primary {
+  color: var(--primary-color) !important;
+}
+
+.border-theme-primary {
+  border-color: var(--primary-color) !important;
+}
+
+.bg-theme-light {
+  background-color: var(--primary-light) !important;
+}
+
+.border-theme-light {
+  border-color: var(--primary-border) !important;
+}
+
+.bg-theme-accent {
+  background-color: var(--accent-color) !important;
+}
+
+.text-theme-accent {
+  color: var(--accent-color) !important;
+}
+
+.font-vazir {
+  font-family: 'Vazirmatn', sans-serif !important;
+}
+
+.font-vazir-light {
+  font-family: 'Vazirmatn', sans-serif !important;
+  font-weight: 300 !important;
+}
+
+.font-vazir-regular {
+  font-family: 'Vazirmatn', sans-serif !important;
+  font-weight: 400 !important;
+}
+
+.font-vazir-medium {
+  font-family: 'Vazirmatn', sans-serif !important;
+  font-weight: 500 !important;
+}
+
+.font-vazir-bold {
+  font-family: 'Vazirmatn', sans-serif !important;
+  font-weight: 700 !important;
+}
+
+.font-vazir-extrabold {
+  font-family: 'Vazirmatn', sans-serif !important;
+  font-weight: 800 !important;
+}
+
+.font-vazir-black {
+  font-family: 'Vazirmatn', sans-serif !important;
+  font-weight: 900 !important;
+}
+
+
