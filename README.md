@@ -13,6 +13,11 @@
 
 ---
 
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/fdff1901-2a50-4acd-a68a-f3df8a339b14" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/1fd75db8-b7bb-48ed-bd21-56191bcee4f4" />
+
+
+
 ## 🌟 ویژگی‌های کلیدی پروژه (Key Features)
 
 ### 📰 ۱. بخش کاربری و پرتال خبری (Public News Portal)
