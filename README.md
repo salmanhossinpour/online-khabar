@@ -5,11 +5,11 @@
   <img src="https://img.shields.io/badge/TypeScript-5.5-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
   <img src="https://img.shields.io/badge/Vite-5.4-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/Gemini_AI-Powered-8E44AD?style=for-the-badge&logo=google-gemini&logoColor=white" alt="Gemini AI" />
+  <img src="https://img.shields.io/badge/OpenRouter_AI-Powered-6C5CE7?style=for-the-badge&logo=openai&logoColor=white" alt="OpenRouter AI" />
   <img src="https://img.shields.io/badge/SEO-Optimized_100%25-00C853?style=for-the-badge&logo=google-search-console&logoColor=white" alt="SEO" />
 </p>
 
-پایگاه خبری، تحلیلی و مجله آنلاین جامع، واکنش‌گرا (Responsive)، همراه با **پنل مدیریت پیشرفته، دستیار تولید محتوای هوش مصنوعی Gemini، استودیو شخصی‌سازی قالب، دستیار سئوی ۵ مرحله‌ای (SEO Wizard)** و قابلیت مدیریت چندسطحی کاربران.
+پایگاه خبری، تحلیلی و مجله آنلاین جامع، واکنش‌گرا (Responsive)، همراه با **پنل مدیریت پیشرفته، دستیار تولید محتوای هوش مصنوعی OpenRouter، استودیو شخصی‌سازی قالب، دستیار سئوی ۵ مرحله‌ای (SEO Wizard)** و قابلیت مدیریت چندسطحی کاربران.
 
 ---
 
@@ -45,8 +45,8 @@
 
 ---
 
-### 🤖 ۴. دستیار نگارش خبر با هوش مصنوعی Gemini
-- نگارش و تولید اخبار و مقالات تخصصی با هوش مصنوعی.
+### 🤖 ۴. دستیار نگارش خبر با هوش مصنوعی OpenRouter
+- نگارش و تولید اخبار و مقالات تخصصی با سرویس هوش مصنوعی OpenRouter.
 - خلاصه‌سازی خودکار متون طولانی و استخراج کلمات کلیدی و تیترهای جذاب.
 - بازنویسی و تنظیم لحن خبری (رسمی، تحلیلی، فوری).
 
@@ -74,7 +74,7 @@
 | **ابزار ساخت (Build Tool)** | Vite |
 | **استایل‌دهی (Styling)** | Tailwind CSS |
 | **آیکون‌ها** | Lucide React |
-| **هوش مصنوعی** | Google Gemini API (`@google/genai`) |
+| **هوش مصنوعی** | OpenRouter AI API |
 | **مدیریت حالت و ذخیره‌سازی** | React State & LocalStorage Persistence |
 
 ---
@@ -97,9 +97,9 @@ npm install
 ```
 
 ### ۳. تنظیم متغیرهای محیطی (Environment Variables)
-یک فایل `.env` در ریشه پروژه بسازید و کلید Gemini را در صورت نیاز اضافه کنید:
+یک فایل `.env` در ریشه پروژه بسازید و کلید OpenRouter را در صورت نیاز اضافه کنید:
 ```env
-GEMINI_API_KEY=your_gemini_api_key_here
+OPENROUTER_API_KEY=your_openrouter_api_key_here
 ```
 
 ### ۴. اجرای دستور توسعه (Run Dev Server)
